@@ -1,0 +1,26 @@
+//Calculate nCr
+#include<iostream>
+using namespace std;
+ 
+  int factorial(int n){
+    int fact=1;
+    for(int i=1;i<=n;i++){
+        fact *=i;
+    }
+    return fact;
+  }
+
+  int nCr(int n,int r){
+    int fact_n=factorial(n);
+    int fact_r=factorial(r);
+    int fact_nmr=factorial(n-r);
+     return fact_n/(fact_r*fact_nmr);
+  }
+
+
+  int main(){
+    cout<<nCr(5,3)<<endl;
+    cout<<nCr(9,6)<<endl;
+    
+    return 0;
+  }
