@@ -10,7 +10,7 @@ using namespace std;
    int main (){
 
     int x[]={23,34,45,56,64,76,7,87,67,45};
-    update(x,10);
+    update(x,sizeof(x));
     
     cout<<x[0];
 

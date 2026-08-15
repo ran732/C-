@@ -12,6 +12,7 @@ using namespace std;
     int main(){
         int arr[] = {1,3,5};
         ChangeArr(arr,3);
+        // cout<<arr[2]<<endl;
         cout<<"in main\n";
         for(int i=0;i<3;i++){
             cout<<arr[i]<<" ";

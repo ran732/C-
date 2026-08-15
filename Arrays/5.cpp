@@ -19,7 +19,7 @@ using namespace std;
    int main (){
     int arr[]={34,31,23,45,73,98};
     int size=sizeof(arr)/4;
-    cout<<"Original array is "<<endl;
+    cout<<"Original array is \t";
      for (int i=0;i<size;i++){
         cout<<arr[i]<< " ";
     }
